@@ -60,3 +60,35 @@ A user reported being unable to log into their domain account because of a passw
 ## Future Labs
 
 Additional Help Desk scenarios will be added to this repository, including account lockouts, user provisioning, group membership, permissions, and other common IT support issues.
+
+
+## Lab Screenshots
+
+### 1. Active Directory Organizational Units
+Created and organized Organizational Units (OUs) in Active Directory to simulate a business environment.
+
+![Active Directory OUs](screenshots/01-active-directory-ous.png)
+
+### 2. Active Directory User Account
+Located and managed a domain user account using Active Directory Users and Computers.
+
+![Active Directory User Account](screenshots/02-ad-user-account.png)
+
+### 3. Password Reset
+Performed a password reset and configured the user to change their password at the next logon.
+
+![Password Reset](screenshots/03-password-reset.png)
+
+### 4. ServiceNow Incident
+Created and documented a ServiceNow incident for a user experiencing a domain login/password issue.
+
+![ServiceNow Incident](screenshots/04-servicenow-incident.png)
+
+### 5. ServiceNow Resolution
+Documented troubleshooting steps and resolution information before resolving the ServiceNow incident.
+
+![ServiceNow Resolution](screenshots/05-servicenow-resolution.png)
+
+## Lab Outcome
+
+Successfully simulated an end-to-end Help Desk support workflow by receiving a user issue, documenting the incident in ServiceNow, troubleshooting the user's Active Directory account, resetting the password, restoring access, documenting the resolution, and closing the incident.
