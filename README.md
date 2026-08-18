@@ -92,3 +92,39 @@ Documented troubleshooting steps and resolution information before resolving the
 ## Lab Outcome
 
 Successfully simulated an end-to-end Help Desk support workflow by receiving a user issue, documenting the incident in ServiceNow, troubleshooting the user's Active Directory account, resetting the password, restoring access, documenting the resolution, and closing the incident.
+
+---
+
+## Help Desk Scenario 2: Account Lockout
+
+### Issue
+A user reported being unable to log into their domain account after multiple failed login attempts.
+
+### Troubleshooting & Resolution
+1. Located the user account in Active Directory Users and Computers.
+2. Verified the account lockout status.
+3. Unlocked the user account.
+4. Reset the user's password.
+5. Enabled "User must change password at next logon."
+6. Documented the troubleshooting and resolution in ServiceNow.
+7. Resolved the incident after restoring account access.
+
+### Screenshots
+
+#### Active Directory Account
+![Active Directory Account](screenshots/01-account-unlock-password-reset.png)
+
+#### Password Reset Confirmation
+![Password Reset Confirmation](screenshots/02-password-reset-confirmation.png)
+
+#### ServiceNow Incident Resolution
+![ServiceNow Incident Resolution](screenshots/03-servicenow-incident-resolution.png)
+
+### Skills Demonstrated
+- Active Directory administration
+- Account lockout troubleshooting
+- Password resets
+- User account management
+- ServiceNow incident management
+- Ticket documentation
+- Technical troubleshooting
